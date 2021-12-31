@@ -2,7 +2,7 @@
 
 The Web3 For Good Index reports on the fees being paid into Web3 networks focused on "For Good" and Sustainability causes in an effort to showcase real usage across the Web3 stack. Stay up to date on the latest Web3 trends whether you’re a supply-side participant keeping tabs on in-demand networks, a developer interested in building on top of the most promising Web3 infrastructure, or simply a crypto-enthusiast passionate about the Web3 movement.
 
-This project is based on the Web3Index.org source. We have modified the projects and graphs to poll usage of a collection of emerging Sustainability projects.
+This project is based on the web3ForGoodIndex.org.org source. We have modified the projects and graphs to poll usage of a collection of emerging Sustainability projects.
 
 Unlike most indexes in defi (a sector of web3) that weight listings based on market capitalization or ["total value locked (TVL)"](https://messari.io/article/how-to-interpret-total-value-locked-tvl-in-defi), The Web3 For Good Index uses a [fundamental index methodology](https://en.wikipedia.org/wiki/Fundamentally_based_indexes). A key belief behind the fundamental index methodology is that underlying valuation figures (i.e. network fees and usage) are more accurate estimators of a network's intrinsic value, rather than the listed market value of the protocol.
 
@@ -10,7 +10,7 @@ Unlike most indexes in defi (a sector of web3) that weight listings based on mar
 
 ### Step 1: Submit an application
 
-As the Web3 platform and ecosystem of applications continue to grow, there's been a surge in interest to be listed on this site. In order for a protocol to be considered for the index, we ask that you first submit [this application](https://github.com/web3index/web3index-org/issues/new?assignees=&labels=&template=protocol_submission.md&title=New+Protocol+Submission).
+As the Web3 platform and ecosystem of applications continue to grow, there's been a surge in interest to be listed on this site. In order for a protocol to be considered for the index, we ask that you first submit [this application](https://github.com/rexsaurus/web3forgoodindex.org-org/issues/new?assignees=&labels=&template=protocol_submission.md&title=New+Protocol+Submission).
 
 ### Step 2: Complete an integration
 
@@ -18,7 +18,7 @@ Protocol fee data must be surfaced in a format that's consumable by The Web3 For
 
 #### Method #1: The Graph (recommended)
 
-If the protocol you'd like to add to the index is built on Ethereum or any other blockchain supported by The Graph, we recommend adding it to The Web3 For Good Index subgraph. You can find the subgraph [here](https://github.com/web3index/subgraph) and instructions on how to add a protocol's fee data to it [here](https://thegraph.com/docs/developer/quick-start).
+If the protocol you'd like to add to the index is built on Ethereum or any other blockchain supported by The Graph, we recommend adding it to The Web3 For Good Index subgraph. You can find the subgraph [here](https://github.com/rexsauraus/web3forgoodsubgraph) and instructions on how to add a protocol's fee data to it [here](https://thegraph.com/docs/developer/quick-start).
 
 Once you've successfully added your protocol to the subgraph, make sure to add the protocol to the Web3 Index [registry](./registry.json) using its subgraph protocol entity id as the key and set its `subgraph` field to `true`.
 
