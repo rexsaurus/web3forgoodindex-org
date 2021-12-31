@@ -1,8 +1,10 @@
-# The Web3 Index
+# The Web3 For Good Index
 
-The Web3 Index reports on the fees being paid into Web3 networks in an effort to showcase real usage across the Web3 stack. Stay up to date on the latest Web3 trends whether you’re a supply-side participant keeping tabs on in-demand networks, a developer interested in building on top of the most promising Web3 infrastructure, or simply a crypto-enthusiast passionate about the Web3 movement.
+The Web3 For Good Index reports on the fees being paid into Web3 networks focused on "For Good" and Sustainability causes in an effort to showcase real usage across the Web3 stack. Stay up to date on the latest Web3 trends whether you’re a supply-side participant keeping tabs on in-demand networks, a developer interested in building on top of the most promising Web3 infrastructure, or simply a crypto-enthusiast passionate about the Web3 movement.
 
-Unlike most indexes in defi (a sector of web3) that weight listings based on market capitalization or ["total value locked (TVL)"](https://messari.io/article/how-to-interpret-total-value-locked-tvl-in-defi), The Web3 Index uses a [fundamental index methodology](https://en.wikipedia.org/wiki/Fundamentally_based_indexes). A key belief behind the fundamental index methodology is that underlying valuation figures (i.e. network fees and usage) are more accurate estimators of a network's intrinsic value, rather than the listed market value of the protocol.
+This project is based on the Web3Index.org source. We have modified the projects and graphs to poll usage of a collection of emerging Sustainability projects.
+
+Unlike most indexes in defi (a sector of web3) that weight listings based on market capitalization or ["total value locked (TVL)"](https://messari.io/article/how-to-interpret-total-value-locked-tvl-in-defi), The Web3 For Good Index uses a [fundamental index methodology](https://en.wikipedia.org/wiki/Fundamentally_based_indexes). A key belief behind the fundamental index methodology is that underlying valuation figures (i.e. network fees and usage) are more accurate estimators of a network's intrinsic value, rather than the listed market value of the protocol.
 
 ## Protocol Application Instructions
 
@@ -12,11 +14,11 @@ As the Web3 platform and ecosystem of applications continue to grow, there's bee
 
 ### Step 2: Complete an integration
 
-Protocol fee data must be surfaced in a format that's consumable by The Web3 Index site. This data can be provided using one of several different methods.
+Protocol fee data must be surfaced in a format that's consumable by The Web3 For Good Index site. This data can be provided using one of several different methods.
 
 #### Method #1: The Graph (recommended)
 
-If the protocol you'd like to add to the index is built on Ethereum or any other blockchain supported by The Graph, we recommend adding it to The Web3 Index subgraph. You can find the subgraph [here](https://github.com/web3index/subgraph) and instructions on how to add a protocol's fee data to it [here](https://thegraph.com/docs/developer/quick-start).
+If the protocol you'd like to add to the index is built on Ethereum or any other blockchain supported by The Graph, we recommend adding it to The Web3 For Good Index subgraph. You can find the subgraph [here](https://github.com/web3index/subgraph) and instructions on how to add a protocol's fee data to it [here](https://thegraph.com/docs/developer/quick-start).
 
 Once you've successfully added your protocol to the subgraph, make sure to add the protocol to the Web3 Index [registry](./registry.json) using its subgraph protocol entity id as the key and set its `subgraph` field to `true`.
 
