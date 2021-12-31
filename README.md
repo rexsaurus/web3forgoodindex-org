@@ -81,3 +81,9 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Running App In Replit
+
+You need to set up a PostGres database, I am using https://www.elephantsql.com/. 
+
+Use the TinyTurtle (free) tier to generate a DB. Use the URL in the above script.
