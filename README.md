@@ -66,7 +66,7 @@ First, install the project dependencies:
 yarn
 ```
 
-Next, rename `.env.example` to `.env` and replace `DATABASE_URL` with your own Postgres database url.
+Use the "Environmental Variables" (lock icon) button on the Replit sidebar to update / add DATABASE_URL to point to the full URL of your PostGres database.
 
 After that, run the Prisma ORM database schema migration tool:
 
